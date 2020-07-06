@@ -28,8 +28,8 @@ Building with
 - Visual Studio Code(HTML, CSS)
 - Macromedia Fireworks
 - Markdown
-  +FlexBox and Css Grid
-  +Measure it, ColorPick, PixelZoomer
+- FlexBox and Css Grid
+- Measure it, ColorPick, PixelZoomer
 - a Lot of Google
 
 ---
