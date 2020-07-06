@@ -1,0 +1,50 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: #0e0e0e;
+  color: #ffffff;
+  height: 100%;
+  width: 100%;
+  /* font-family: "Montserrat", sans-serif;
+  font-size: 1.25em; */
+}
+
+.container {
+  background: #1c1c1c;
+  width: 1135;
+  height: 451px;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(2, auto);
+
+  grid-template-areas:
+    "title title title title landing inner cms template"
+    "footer footer footer footer footer footer footer footer";
+}
+
+.title {
+  grid-area: title;
+}
+.landing {
+  grid-area: landing;
+}
+.inner {
+  grid-area: inner;
+}
+.cms {
+  grid-area: cms;
+}
+.template {
+  grid-area: template;
+}
+.footer {
+  grid-area: footer;
+}
