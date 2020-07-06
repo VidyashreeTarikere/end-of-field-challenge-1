@@ -52,7 +52,8 @@ p {
 
 .p__title,
 .p__header,
-.p__logo {
+.p__logo,
+.p_copy {
   opacity: 1;
 }
 .p__header {
@@ -88,7 +89,6 @@ p {
 .footer .p__copy {
   opacity: 0.2;
 }
-
-.footer .p__copy .s__webflow {
-  opacity: rgba(255, 255, 255, 1);
+.footer .p__copy #s__webflow {
+  opacity: 1;
 }
