@@ -23,12 +23,12 @@ body {
   margin: 110px 200px;
 
   display: grid;
-  grid-template-columns: repeat(8, 1fr);
+  grid-template-columns: repeat(7, 1fr);
   grid-template-rows: repeat(2, auto);
 
   grid-template-areas:
-    "title title title title landing inner cms template"
-    "footer footer footer footer footer footer footer footer";
+    "title title title  landing inner cms template"
+    "footer footer footer footer footer footer footer";
 }
 
 .title {
@@ -48,12 +48,15 @@ body {
 }
 p {
   opacity: 0.05;
+  font-size: 1.1em;
 }
 
 .p__title,
 .p__header {
   opacity: 1;
-  color: chartreuse;
+}
+.p__header {
+  padding-right: 0.5em;
 }
 
 .landing {
@@ -69,6 +72,12 @@ p {
   grid-area: template;
 }
 .footer {
+  display: inline-flex;
   grid-area: footer;
-  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.p__logo {
+  font-size: 2.3em;
+  padding-right: 20px;
 }
