@@ -89,7 +89,6 @@ p {
   opacity: 0.2;
 }
 
-.footer .p__copy span {
-  opacity: 1;
-  color: white;
+.footer .p__copy .s__webflow {
+  opacity: rgba(255, 255, 255, 1);
 }
