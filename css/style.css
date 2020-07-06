@@ -9,18 +9,20 @@ html {
 body {
   margin: 0;
   padding: 0;
+  background: #0e0e0e;
   color: #ffffff;
-
   height: 100%;
   width: 100%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.25em;
 }
 
 .container {
-  background: #000000;
+  background: #1c1c1c;
   width: 1231px;
   height: 331px;
+  margin: auto;
   display: flex;
-  flex-wrap: wrap;
   align-self: center;
   justify-content: center;
 }
@@ -28,7 +30,7 @@ body {
 .container .blocks,
 .container .webflow,
 .container .ui {
-  padding: 20px;
+  padding: 25px;
   align-self: center;
   justify-content: center;
 }
@@ -42,5 +44,6 @@ img {
 }
 
 .description {
-  text-align: justify;
+  text-align: center;
+  line-height: 30px;
 }
