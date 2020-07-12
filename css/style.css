@@ -27,9 +27,7 @@ body {
   justify-content: center;
 }
 
-.container .blocks,
-.container .webflow,
-.container .ui {
+.container .content {
   padding: 25px;
   align-self: center;
   justify-content: center;
