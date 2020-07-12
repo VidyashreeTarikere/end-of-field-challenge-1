@@ -51,12 +51,12 @@ p {
 }
 
 .p__title,
-.p__header,
 .p__logo,
 .p_copy {
   opacity: 1;
 }
-.p__header {
+h4 {
+  opacity: 1;
   padding-right: 0.5em;
 }
 .title {
