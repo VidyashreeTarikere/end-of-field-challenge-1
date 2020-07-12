@@ -23,67 +23,46 @@ body {
   margin: 110px 200px;
 
   display: grid;
-  grid-template-columns: repeat(7, 1fr);
-  grid-template-rows: repeat(2, auto);
-
-  grid-template-areas:
-    "title title title  landing inner cms template"
-    "footer footer footer footer footer footer footer";
+  grid-template-columns: 45% repeat(4, 1fr);
 }
 
-.title .p__title {
+h1 {
   font-size: 2.2rem;
   letter-spacing: 2px;
-  /* font-weight: bold; */
   line-height: 1.5em;
+  padding-top: 15px;
   padding-left: 38px;
+  opacity: 1;
 }
-.landing,
-.inner,
-.cms,
-.template {
-  padding-top: 28px;
-  padding-bottom: 50px;
+
+h4 {
+  opacity: 1;
+  padding-right: 0.5em;
 }
+
 p {
   opacity: 0.4;
   font-size: 1rem;
 }
 
-.p__title,
-.p__logo,
-.p_copy {
-  opacity: 1;
-}
-h4 {
-  opacity: 1;
-  padding-right: 0.5em;
-}
-.title {
-  grid-area: title;
-}
-
-.landing {
-  grid-area: landing;
-}
-.inner {
-  grid-area: inner;
-}
-.cms {
-  grid-area: cms;
-}
-.template {
-  grid-area: template;
+.column-text {
+  padding-top: 28px;
+  padding-bottom: 50px;
 }
 .footer {
   display: inline-flex;
-  grid-area: footer;
+  grid-column-start: span 5;
   align-items: center;
   justify-content: center;
 }
+
 .footer .p__logo {
   font-size: 1.9rem;
   padding-right: 20px;
+}
+
+.p__logo {
+  opacity: 1;
 }
 
 .footer .p__copy {
